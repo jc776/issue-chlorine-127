@@ -1,13 +1,14 @@
 https://github.com/mauricioszabo/atom-chlorine/issues/127
 
-1. Start shadow-cljs in terminal `clj -A:dev:shadow watch app`
-2. With atom in this directory, `Chlorine: Connect Socket REPL`
-3. I can eval JVM Clojure in `dev.clj` eg the `(+ 1 1)` line
-4. Open "Devcards" (the shadow-cljs app) on `http://localhost:8700`
-5. Use command `Chlorine: Connect Embedded`
-6. Reagent error appears in console on first connect, see below
-7. I can eval ClojureScript in `day1.cljs` eg the `(+ 1 1)` line
-8. In `day1.cljs`, if I start typing `(js/aaa...`, I get `nil` lines in Chlorine REPL window as it autocompletes
+1. `npm install` to to get dependencies.
+2. Start shadow-cljs in terminal `clj -A:dev:shadow watch app`
+3. With atom in this directory, `Chlorine: Connect Socket REPL`
+4. I can eval JVM Clojure in `dev.clj` eg the `(+ 1 1)` line
+5. Open "Devcards" (the shadow-cljs app) on `http://localhost:8700`
+6. Use command `Chlorine: Connect Embedded`
+7. Reagent error appears in console on first connect, see below
+8. I can eval ClojureScript in `day1.cljs` eg the `(+ 1 1)` line
+9. In `day1.cljs`, if I start typing `(js/aaa...`, I get `nil` lines in Chlorine REPL window as it autocompletes
 
 ## Environment
 Atom 1.41.0 x64, Windows 10
