@@ -34,6 +34,34 @@ parinfer 1.23.0
 - Warn when bad enabled
 - Keybindings enabled
 
+System package autocomplete-plus
+(as far as I know, all defaults?)
+- Show Suggestion On Keystroke enabled
+- Delay: blank, `Default: 0`
+- Maximum visible: blank, `Default: 10`
+- Keymap for Confirming `tab and enter`
+- Use Core Movement enabled 
+- File blacklist: blank, `Default .*`
+- Scope blacklist: blank 
+- Include Completions From All Buffers enabled 
+- Use Strict Matching disabled 
+- Minimum Word Length: blank, `Default: 3`
+- Extra Word Characters: blank, `Default: `
+- Enable Built-In Provider enabled 
+- Built-In Provider Blacklist blank, `Default: .source.gfm`
+- Allow Backspace To Trigger disabled
+- Automatically Confirm Single Suggestion enabled
+- Suggestions list follows: Word 
+- Suppress Activation For Editor Classes blank, `Default: vim ...`
+- Consume suggestion text enabled 
+- Use alternate scoring enabled 
+- Use locality enabled 
+- Enable extended unicode disabled
+- Do not remove similar suggestions 
+- Move to cancel disabled
+- Keybindings: enabled
+
+
 Blank init script.
 keymap:
 ```
